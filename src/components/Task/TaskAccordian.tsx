@@ -1,4 +1,3 @@
-import { dummyTasks } from '@/data/dummyData';
 import React from 'react'
 import TaskAccordianItem from './TaskAccordianItem';
 import { useTask } from '@/context/TaskContext';

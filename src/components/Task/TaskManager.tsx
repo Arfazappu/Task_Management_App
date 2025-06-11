@@ -13,7 +13,7 @@ import { TaskForm } from "./TaskForm";
 import { FilterPopover, SortPopover } from "../UI/PopOver";
 
 function TaskManager() {
-  const { showAddModal, setShowAddModal, showEditModal, setShowEditModal, showDeleteModal, setShowDeleteModal, selectedTask, setSelectedTask, dispatch, sortField, setSortField, sortOrder, setSortOrder, filter, setFilter } = useTask();
+  const { showAddModal, setShowAddModal, showEditModal, setShowEditModal, showDeleteModal, setShowDeleteModal, selectedTask, setSelectedTask, dispatch, sortOrder, setSortOrder, filter, setFilter } = useTask();
   const [showSortPopover, setShowSortPopover] = useState(false);
   const [showFilterPopover, setShowFilterPopover] = useState(false);
 
