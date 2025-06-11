@@ -42,7 +42,7 @@ function TaskManager() {
       </div>
       <div className="flex m-5 flex-row items-center justify-between gap-4">
         <h3 className="text-xl font-semibold text-gray-800">Tasks</h3>
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-2">
           <Button text="Add Task" icon={<Plus size={18} />} onClick={() => setShowAddModal(true)} />
           <div className="relative">
             <Button
