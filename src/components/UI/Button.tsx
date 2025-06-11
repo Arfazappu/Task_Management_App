@@ -22,7 +22,7 @@ const Button = ({
     : "bg-[#941B0F] text-white border border-transparent";
 
   const baseClass =
-    "h-10 px-4 inline-flex items-center justify-center gap-2 cursor-pointer font-semibold rounded-xs transition duration-200";
+    "h-10 px-4 inline-flex items-center justify-center gap-2 cursor-pointer font-semibold text-sm md:text-base rounded-xs transition duration-200";
 
   const textClass =
     showTextOn === "md"
